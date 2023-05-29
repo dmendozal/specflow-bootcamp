@@ -30,7 +30,7 @@ jobs:
           publish_dir: './TestProject3/bin/Debug/net6.0/allure-results'
           keep_files: true
           user_name: dmendozal
-          user_email: danieel74896@gmail.com
+          user_email: dmendozaledezma@gmail.com
           publish_branch: gh_page  
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
