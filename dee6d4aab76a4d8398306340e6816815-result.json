@@ -1,0 +1,99 @@
+{
+  "uuid": "98f64435804c481192353c5a22d6988a",
+  "historyId": "Get by id",
+  "fullName": "Get by id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1242-104"
+    },
+    {
+      "name": "feature",
+      "value": "Get posts"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "tag",
+      "value": "integration"
+    },
+    {
+      "name": "tag",
+      "value": "JIRA-7777"
+    }
+  ],
+  "links": [],
+  "name": "Get by id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have an id with value 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685402285492,
+      "stop": 1685402285596
+    },
+    {
+      "name": "When  I send a get request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685402285597,
+      "stop": 1685402285749
+    },
+    {
+      "name": "Then  I expected a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685402285749,
+      "stop": 1685402285763
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685402285484,
+  "stop": 1685402285766
+}
